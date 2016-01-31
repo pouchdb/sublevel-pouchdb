@@ -12,7 +12,8 @@
     "errno": "0.1.4",
     "level-codec": "6.1.0",
     "ltgt": "2.1.2",
-    "pull-stream": "2.21.0"
+    "pull-stream": "2.21.0",
+    "readable-stream": "1.0.33"
   },
   "scripts": {},
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
