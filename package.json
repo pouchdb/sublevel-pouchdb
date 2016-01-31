@@ -1,7 +1,7 @@
 {
   "name": "sublevel-pouchdb",
   "description": "partition levelup databases - for PouchDB",
-  "version": "6.5.4",
+  "version": "1.0.0",
   "homepage": "https://github.com/nolanlawson/sublevel-pouchdb",
   "main": "lib/legacy.js",
   "repository": {
