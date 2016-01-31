@@ -1,6 +1,6 @@
 {
   "name": "sublevel-pouchdb",
-  "description": "partition levelup databases - for PouchDB",
+  "description": "Fork of level-sublevel with ony the subset of the API that PouchDB uses",
   "version": "1.0.0",
   "homepage": "https://github.com/nolanlawson/sublevel-pouchdb",
   "main": "lib/legacy.js",
