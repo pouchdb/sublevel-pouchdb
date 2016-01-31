@@ -9,13 +9,15 @@
     "url": "git://github.com/nolanlawson/sublevel-pouchdb.git"
   },
   "dependencies": {
-    "level-codec": "^6.1.0",
-    "levelup": "~0.19.0",
-    "ltgt": "~2.1.1",
-    "pull-stream": "~2.21.0"
+    "errno": "0.1.4",
+    "level-codec": "6.1.0",
+    "ltgt": "2.1.2",
+    "pull-stream": "2.21.0"
   },
   "scripts": {},
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
   "license": "MIT",
-  "files": ["lib"]
+  "files": [
+    "lib"
+  ]
 }
