@@ -1,11 +1,12 @@
 {
-  "name": "level-sublevel",
-  "description": "partition levelup databases",
+  "name": "sublevel-pouchdb",
+  "description": "partition levelup databases - for PouchDB",
   "version": "6.5.4",
-  "homepage": "https://github.com/dominictarr/level-sublevel",
+  "homepage": "https://github.com/nolanlawson/sublevel-pouchdb",
+  "main": "lib/legacy.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/dominictarr/level-sublevel.git"
+    "url": "git://github.com/nolanlawson/sublevel-pouchdb.git"
   },
   "dependencies": {
     "pull-stream": "~2.21.0",
@@ -27,25 +28,8 @@
     "through": "~2.3.4"
   },
   "scripts": {
-    "test": "set -e; for t in test/*.js; do node $t; done"
   },
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
   "license": "MIT",
-  "stability": "unstable",
-  "testling": {
-    "files": "test/*.js",
-    "browsers": [
-      "ie/8..latest",
-      "firefox/17..latest",
-      "firefox/nightly",
-      "chrome/22..latest",
-      "chrome/canary",
-      "opera/12..latest",
-      "opera/next",
-      "safari/5.1..latest",
-      "ipad/6.0..latest",
-      "iphone/6.0..latest",
-      "android-browser/4.2..latest"
-    ]
-  }
+  "files": "lib"
 }
